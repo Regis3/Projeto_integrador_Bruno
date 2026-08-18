@@ -1,4 +1,4 @@
-# Projeto_integrador_Bruno
+# organização de rotas de õnibus
 Etapa_1
 # Sobre o projeto
 O projeto Organização de Rotas de Ônibus tem como objetivo facilitar a organização e a consulta das rotas de transporte coletivo. A proposta é desenvolver um sistema que permita visualizar informações sobre linhas, trajetos, pontos de parada e horários dos ônibus.
