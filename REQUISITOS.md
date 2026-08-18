@@ -1,12 +1,12 @@
 
-Requisitos funcionais
-O sistema deverá cadastrar os ônibus.
-O sistema deverá cadastrar as rotas.
-O sistema deverá cadastrar os pontos de parada.
-O sistema deverá cadastrar os alunos em suas respectivas rotas.
-O sistema deverá informar os horários dos ônibus.
-O usuário deverá poder consultar uma rota.
-Requisitos não funcionais
-O sistema deverá ser simples e fácil de usar.
-As informações deverão ser organizadas e claras.
-O sistema deverá apresentar as consultas rapidamente.
+# Requisitos funcionais
+1. O sistema deverá cadastrar os ônibus.
+2. O sistema deverá cadastrar as rotas.
+3. O sistema deverá cadastrar os pontos de parada.
+4. O sistema deverá cadastrar os alunos em suas respectivas rotas.
+5. O sistema deverá informar os horários dos ônibus.
+6. O usuário deverá poder consultar uma rota.
+# Requisitos não funcionais
+1. O sistema deverá ser simples e fácil de usar.
+2. As informações deverão ser organizadas e claras.
+3. O sistema deverá apresentar as consultas rapidamente.
