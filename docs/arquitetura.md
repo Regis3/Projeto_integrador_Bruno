@@ -20,7 +20,7 @@ A Matriz RBAC define o que cada tipo de usuário pode fazer no sistema.
 
 ## 2. Diagrama de Fluxo
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Início] --> B[Login no sistema]
     B --> C{Tipo de usuário}
@@ -35,11 +35,11 @@ flowchart TD
 
     G --> I[Fim]
     H --> I
-\`\`\`
+```
 
 ## 3. Modelo de Dados (DER)
 
-\`\`\`mermaid
+```mermaid
 erDiagram
     ONIBUS ||--o{ ROTA : realiza
     ROTA ||--o{ PONTO : possui
@@ -71,4 +71,4 @@ erDiagram
         int id
         string horario
     }
-\`\`\`
+```
