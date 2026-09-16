@@ -1,17 +1,17 @@
-#cadastro de onibus#
+#cadastro de onibus
 ![Cadastro de Ônibus](cadastro%20de%20onibus.png)
 
 
-#cadastro de rotas#
+#cadastro de rotas
 
 ![Cadastro de Rotas](cadastro%20de%20rotas.png)
 
-#cadastro de pontos#
+#cadastro de pontos
 
 
 ![Cadastro de Pontos](cadastro%20de%20pontos.png)
 
-#cadastro de alunos#
+#cadastro de alunos
 
 
 ![Cadastro de Alunos](cadastro%20de%20alunos.png)
