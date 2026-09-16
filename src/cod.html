@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rotas de Ônibus Escolar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🚌 Organização de Rotas de Ônibus Escolar</h1>
+  <p>Cadastre ônibus, rotas, pontos de parada e alunos</p>
+</header>
+
+<nav>
+  <button data-target="onibus" class="active">🚌 Ônibus</button>
+  <button data-target="rotas">🛣️ Rotas</button>
+  <button data-target="pontos">📍 Pontos</button>
+  <button data-target="alunos">👨‍🎓 Alunos</button>
+  <button data-target="consulta">🔎 Consultar</button>
+</nav>
+
+<main>
+
+  <!-- ÔNIBUS -->
+  <section id="onibus" class="active">
+    <h2>Cadastro de Ônibus</h2>
+    <form id="form-onibus">
+      <div>
+        <label for="onibus-nome">Nome ou identificação do ônibus</label>
+        <input type="text" id="onibus-nome" required placeholder="Ex: Ônibus 01">
+      </div>
+      <div>
+        <label for="onibus-placa">Placa</label>
+        <input type="text" id="onibus-placa" required placeholder="Ex: ABC-1234">
+      </div>
+      <button type="submit" class="btn">Cadastrar Ônibus</button>
+    </form>
+    <h2>Ônibus Cadastrados</h2>
+    <ul class="list" id="lista-onibus"></ul>
+  </section>
+
+  <!-- ROTAS -->
+  <section id="rotas">
+    <h2>Cadastro de Rotas</h2>
+    <form id="form-rotas">
+      <div>
+        <label for="rota-nome">Nome da rota</label>
+        <input type="text" id="rota-nome" required placeholder="Ex: Rota Centro">
+      </div>
+      <div>
+        <label for="rota-horario">Horário</label>
+        <input type="time" id="rota-horario" required>
+      </div>
+      <div>
+        <label for="rota-onibus">Ônibus utilizado</label>
+        <select id="rota-onibus" required>
+          <option value="">Selecione um ônibus</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">Cadastrar Rota</button>
+    </form>
+    <h2>Rotas Cadastradas</h2>
+    <ul class="list" id="lista-rotas"></ul>
+  </section>
+
+  <!-- PONTOS -->
+  <section id="pontos">
+    <h2>Cadastro de Pontos de Parada</h2>
+    <form id="form-pontos">
+      <div>
+        <label for="ponto-nome">Nome do ponto</label>
+        <input type="text" id="ponto-nome" required placeholder="Ex: Praça Central">
+      </div>
+      <div>
+        <label for="ponto-rota">Rota relacionada</label>
+        <select id="ponto-rota" required>
+          <option value="">Selecione uma rota</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">Adicionar Ponto</button>
+    </form>
+    <h2>Pontos Cadastrados</h2>
+    <ul class="list" id="lista-pontos"></ul>
+  </section>
+
+  <!-- ALUNOS -->
+  <section id="alunos">
+    <h2>Cadastro de Alunos</h2>
+    <form id="form-alunos">
+      <div>
+        <label for="aluno-nome">Nome do aluno</label>
+        <input type="text" id="aluno-nome" required placeholder="Ex: João Silva">
+      </div>
+      <div>
+        <label for="aluno-matricula">Matrícula</label>
+        <input type="text" id="aluno-matricula" required placeholder="Ex: 2026001">
+      </div>
+      <div>
+        <label for="aluno-rota">Rota do aluno</label>
+        <select id="aluno-rota" required>
+          <option value="">Selecione uma rota</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">Cadastrar Aluno</button>
+    </form>
+    <h2>Alunos Cadastrados</h2>
+    <ul class="list" id="lista-alunos"></ul>
+  </section>
+
+  <!-- CONSULTA -->
+  <section id="consulta">
+    <h2>Consulta de Rota</h2>
+    <div class="search-box">
+      <input type="text" id="busca-rota" placeholder="Digite o nome da rota...">
+      <button class="btn" id="btn-buscar" style="width:auto;">Buscar</button>
+    </div>
+    <div id="resultado-consulta"></div>
+  </section>
+
+</main>
+
+<footer>Dados salvos automaticamente no seu navegador (LocalStorage)</footer>
+
+<script src="java.js"></script>
+</body>
+</html>
