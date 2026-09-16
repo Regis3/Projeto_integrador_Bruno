@@ -67,8 +67,23 @@ erDiagram
         string nome
     }
 
+
     HORARIO {
         int id
         string horario
     }
 ```
+
+
+
+
+
+# trelo:https://trello.com/invite/b/6a8f08b960395a3e33da85fa/ATTIb467533068e13bc477b67eba62682b8e2114AA02/meu-quadro-do-trello
+
+
+
+
+
+
+
+
